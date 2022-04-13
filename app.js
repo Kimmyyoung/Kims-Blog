@@ -24,7 +24,7 @@ app.use(express.static("public"));
 
 //---------------- mongodb connection start -----------------
 
-mongoose.connect('mongodb+srv://kimmy:Test1@cluster0.yc97m.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', function(err){
+mongoose.connect('mongodb+srv://kimmy:kimmy@cluster0.yc97m.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', function(err){
   if(err){console.log("DB Error!");}else{console.log("DB connected!");}
 })
 
