@@ -5,10 +5,13 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run dev"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
+  "engines" : {
+    "node" : "v16.14.0"
+  },
   "dependencies": {
     "body-parser": "^1.18.3",
     "brew": "^0.0.8",
@@ -17,5 +20,6 @@
     "lodash": "^4.17.21",
     "mongodb": "^4.5.0",
     "mongoose": "^6.2.10"
+
   }
 }
