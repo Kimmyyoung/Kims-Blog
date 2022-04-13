@@ -1,0 +1,48 @@
+
+
+<%- include('partials/header'); -%>
+
+<p>
+
+  
+<div class="writing-title p-5 mb-4 bg-light rounded-3">
+  <div class="container-fluid py-5">
+    <h1 class="header display-5 fw-bold">Writing  👩🏻‍💻</h1>
+    <p><%= WritingContent %></p>
+  </div>
+</div>
+
+
+  <% posts.forEach(function (post){ %>
+
+    <!-- <h1 class="posttitle"><%=post.title%></h1>
+    <p class="postcotents"><%=post.content.substring(0,100) + "..."%> 
+    <a href="/posts/<%=post._id%>">Read More</a>
+  </p> -->
+
+
+    <div class="list-group">
+      <a href="/posts/<%=post._id%>" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+        <p class="post-category">dev</p>
+        <div class="d-flex gap-2 w-100 justify-content-between">
+          <div>
+            <h2 class="post-title mb-0"><%=post.title%></h2>
+            <p class="post-content mb-0 opacity-75"><%=post.content.substring(0,1000) + "..."%></p>
+          </div>
+        </div>
+      </a>
+    </div>
+    
+  <p>
+
+
+
+
+
+
+  <%  }) %>
+
+</p>
+
+
+<%- include('partials/footer'); -%>
