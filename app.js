@@ -52,7 +52,7 @@ app.get('/contact', function (req,res){
 
 app.get('/', function (req,res){
   res.render('home.ejs', {
-    StartingContent : homeStartingContent,
+    StartingContent : homeStartingContent
   });
 }); //render 'home' page
 
@@ -70,7 +70,7 @@ app.get('/writing', function (req,res){
   });
   
 
-}); //render 'home' page
+}); //render 'writing' page
 
 app.post('/compose', function(req,res){
 
