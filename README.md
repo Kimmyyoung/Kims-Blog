@@ -19,7 +19,7 @@
 <h3> :sparkles: Preview </h3>
 <hr/>
 
-![portfolio-readme](https://user-images.githubusercontent.com/97567561/189766383-e0471453-22ee-467a-9d0a-b1c8300aada1.png)
+![blogproject](https://user-images.githubusercontent.com/97567561/190199581-e50f4ce8-5a43-48ba-888c-94a545c4f95f.jpg)
 
 
 
